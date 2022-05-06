@@ -3,6 +3,7 @@
 import React from "react";
 import styled from "styled-components";
 import TextBox from "../Text";
+import Button from "../Button";
 
 const CardWrapper = styled.div`
   width: 300px;
@@ -48,7 +49,7 @@ const MediaCard = (props) => {
       <TextBox color="gray" fontSize="15px" fontWeight="lighter">
         {props.text}
       </TextBox>
-      <ButtonWrapper bColor={props.bColor}>Action</ButtonWrapper>
+      <Button backgroundColor={props.backgroundColor}>Action</Button>
     </CardWrapper>
   );
 };
