@@ -5,8 +5,10 @@ const StyledButton = styled.button`
   position: relative;
   height: 50px;
   width: 250px;
-  border-radius: 8px;
+  border-radius: 20px;
+  border: none;
   font-size: 1rem;
+  cursor: pointer;
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "white"};
   color: ${(props) => (props.color ? props.color : "black")};
