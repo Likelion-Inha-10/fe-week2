@@ -12,7 +12,7 @@ const StyledButton = styled.button`
   margin-top: 30px;
   background: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "white"};
-  color: ${(props) => (props.color ? props.color : "black")};
+  color: ${(props) => (props.color ? props.color : "white")};
 `;
 
 const Button = (props) => {
