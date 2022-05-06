@@ -5,6 +5,8 @@ const StyledText = styled.div`
   font-size: ${(props) => props.fSize};
   color: ${(props) => (props.fcolor ? props.fcolor : "black")};
   font-weight: ${(props) => props.fWeight};
+  padding-left: 10px;
+  line-height: 200%;
 `;
 
 const TextBox = (props) => {
