@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledText = styled.div`
   font-size: ${(props) => props.fSize};
   color: ${(props) => (props.fcolor ? props.fcolor : "black")};
-  font-weight: ${(props) => props.fWeight};
+  font-weight: ${(props) => props.fweight};
 `;
 
 const TextBox = (props) => {
