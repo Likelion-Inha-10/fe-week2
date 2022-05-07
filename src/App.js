@@ -38,7 +38,7 @@ function App() {
 export default App; */
 
 // 3번 문제
-import MediaCard from "./component/MediaCard";
+/* import MediaCard from "./component/MediaCard";
 
 function App() {
   return (
@@ -81,4 +81,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
