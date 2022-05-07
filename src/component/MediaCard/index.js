@@ -26,19 +26,6 @@ const ImageWrapper = styled.div`
   background-size: 100% 100%;
 `;
 
-const ButtonWrapper = styled.button`
-  width: 300px;
-  height: 50px;
-  border: 0px;
-  border-radius: 20px;
-  margin: auto;
-  margin-top: 30px;
-  color: white;
-  text-align: center;
-  font-size: 15px;
-  background: ${(props) => props.bColor};
-`;
-
 const MediaCard = (props) => {
   return (
     <CardWrapper>
