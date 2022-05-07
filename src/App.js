@@ -48,10 +48,10 @@ function App() {
       ></MediaCard>
 
       <MediaCard
-        bImage="https://i.pinimg.com/564x/69/0d/28/690d288b651b78ecf09e776c05d977e3.jpg"
-        title="glaemfj🥕"
-        text="사진 찾는게 제일 어렵네요..."
-        backgroundColor="linear-gradient(to right, #243949 0%, #517fa4 100%);"
+        bImage="https://i.pinimg.com/originals/38/02/aa/3802aae574b1a647b7f3ea26b603ca80.jpg"
+        title="마지막!"
+        text="마참내 마지막 미디어카드네요!"
+        backgroundColor="linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);"
       />
     </>
   );

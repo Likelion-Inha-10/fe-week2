@@ -22,7 +22,7 @@ const ImageWrapper = styled.div`
   height: 180px;
   border-radius: 20px;
   margin: auto;
-  background-image: url(${(props) => (props.bImage ? props.bImage : null)});
+  background-image: url(${(props) => (props.bImage ? props.bImage : "white")});
   background-size: 100% 100%;
 `;
 
