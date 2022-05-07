@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledText = styled.div`
-  text-overflow: ellipsis;
-  overflow: hidden;
+  font-size: 10px;
   color: ${(props) => (props.color ? props.color : "black")};
 `;
 

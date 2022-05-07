@@ -1,10 +1,8 @@
-import Text from "./component/Text";
-import Button from "./component/Button";
-import TextCard from "./component/TextCard";
+import ColorCard from "./component/ColorCard";
 function App() {
   return (
     <>
-      <TextCard text="이게 TextCard...?" button="click" />
+      <ColorCard color="black" />
     </>
   );
 }
