@@ -10,15 +10,14 @@ const StyledButton = styled.button`
   font-size: 1rem;
   margin-auto;
   margin-top: 30px;
-  background: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : "white"};
+  background: ${(props) => (props.BColor ? props.BColor : "white")};
   color: ${(props) => (props.color ? props.color : "white")};
 `;
 
 const Button = (props) => {
   console.log(props);
   return (
-    <StyledButton backgroundColor={props.backgroundColor} color={props.color}>
+    <StyledButton BColor={props.bColor} color={props.color}>
       {props.children}
     </StyledButton>
   );

@@ -29,14 +29,14 @@ const ImageWrapper = styled.div`
 const MediaCard = (props) => {
   return (
     <CardWrapper>
-      <ImageWrapper bImage={props.bImage}></ImageWrapper>
+      <ImageWrapper bImage={props.backgroundImage}></ImageWrapper>
       <TextBox fontSize="27px" fontWeight="bold">
         {props.title}
       </TextBox>
       <TextBox color="gray" fontSize="15px" fontWeight="lighter">
         {props.text}
       </TextBox>
-      <Button backgroundColor={props.backgroundColor}>Action</Button>
+      <Button bColor={props.backgroundColor}>Action</Button>
     </CardWrapper>
   );
 };
