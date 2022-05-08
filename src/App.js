@@ -1,11 +1,17 @@
-import Text from "./component/Text";
-import Button from "./component/Button";
-import TextCard from "./component/TextCard";
+import ColorCard from "./component/ColorCard";
 function App() {
   return (
-    <>
-      <TextCard text="이게 TextCard...?" button="click" />
-    </>
+    <div
+      style={{
+        width: "100vw",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <ColorCard color="black" />
+      <ColorCard color="#1E82CD" />
+      <ColorCard color="#FFAAFF" />
+    </div>
   );
 }
 
