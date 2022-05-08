@@ -11,7 +11,6 @@ const MediaCardWrapper = styled.div`
   background-color: #dcdcdc;
   padding: 10px;
   margin: 20px;
-  //
 `;
 
 const MediaContentCard = styled.div`
@@ -22,7 +21,6 @@ const MediaContentCard = styled.div`
   background-color: white;
   padding: 10px;
   margin: 50px 50px 0 50px;
-  //
 `;
 
 const MediaContent = styled.div`
@@ -38,7 +36,6 @@ const MediaImage = styled.div`
   overflow: hidden;
 `;
 
-//<ImageCard img src={`../../${props.image}`} alt={props.image} />
 const MediaCard = (props) => {
   console.log(props);
   return (
