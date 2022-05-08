@@ -1,0 +1,18 @@
+import ColorCard from "./component/ColorCard";
+import NAme from "./component/Name"
+//
+
+
+
+function App() {
+  return (
+    <>
+      <ColorCard color="black" />
+      <h1>미리</h1>
+      <div>dd</div>
+      <Name>
+    </>
+  );
+}
+
+export default App;
