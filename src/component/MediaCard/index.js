@@ -37,7 +37,6 @@ const MediaImage = styled.div`
 `;
 
 const MediaCard = (props) => {
-  console.log(props);
   return (
     <MediaCardWrapper>
       <MediaContentCard>

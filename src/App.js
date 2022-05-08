@@ -30,7 +30,7 @@ function App() {
           link="https://www.pinterest.co.kr/pin/66780006966617762/"
           title="Heading"
           linkStyle="_blank"
-          backgroundColor="#0080FF"
+          backgroundColor="linear-gradient(90deg, #0080FF, #63b1ff)"
           color="white"
         >
           This is the source of this picture, and it is pinterest.
@@ -41,7 +41,7 @@ function App() {
           link="https://github.com/wlsdk9803"
           linkStyle="_blank"
           title="Github"
-          backgroundColor="#b0c4de"
+          backgroundColor="linear-gradient(90deg, #b0c4de, #CEE3F6)"
           color="black"
         >
           Hello. This is my github.
@@ -52,7 +52,7 @@ function App() {
           link="https://www.instagram.com/jin_n__a/"
           linkStyle="_blank"
           title="Instagram"
-          backgroundColor="#FA5882"
+          backgroundColor="linear-gradient(90deg, #FA5882, #ff87a7)"
           color="white"
         >
           Hello. This is my sns, instagram.
@@ -63,7 +63,7 @@ function App() {
           link="https://www.youtube.com/watch?v=qDW-sVVtTGk"
           linkStyle="_blank"
           title="Time lapse"
-          backgroundColor="#F79F81"
+          backgroundColor="linear-gradient(90deg, #F79F81, #f5b49f)"
           color="white"
         >
           This is my favorite song, time lapse. Would you like to hear?
@@ -74,7 +74,7 @@ function App() {
           link="https://www.youtube.com/watch?v=VpzvseMXxko"
           linkStyle="_blank"
           title="Dreaming"
-          backgroundColor="#48d1cc"
+          backgroundColor="linear-gradient(90deg, #48d1cc, #98dad8)"
           color="white"
         >
           Another song?
@@ -85,7 +85,7 @@ function App() {
           link="https://learn.inha.ac.kr/login.php"
           linkStyle="_self"
           title="Goodbye"
-          backgroundColor="#BE81F7"
+          backgroundColor="linear-gradient(90deg, #BE81F7, #d7b5f8)"
           color="white"
         >
           It's time to study...

@@ -9,13 +9,12 @@ const StyledButton = styled.button`
   border: none;
   font-size: 1rem;
   cursor: pointer;
-  background-color: ${(props) =>
+  background: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "white"};
   color: ${(props) => (props.color ? props.color : "black")};
 `;
 
 const Button = (props) => {
-  console.log(props);
   return (
     <StyledButton backgroundColor={props.backgroundColor} color={props.color}>
       {props.children}
