@@ -2,23 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
+  margin: 15px 8px 4px 8px;
   position: relative;
   height: 50px;
-  width: 250px;
-  border-radius: 8px;
+  width: 260px;
+  border-radius: 18px;
+  border: 1px solid white;
   font-size: 1rem;
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "white"};
   color: ${(props) => (props.color ? props.color : "black")};
 `;
 
-const Button = (props) => {
-  console.log(props);
-  return (
-    <StyledButton backgroundColor={props.backgroundColor} color={props.color}>
-      {props.children}
-    </StyledButton>
-  );
-};
-
-export default Button;
+export default StyledButton;
