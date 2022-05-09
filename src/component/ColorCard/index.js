@@ -10,7 +10,7 @@ const CardWrapper = styled.div`
   border: 1px black solid;
   text-align: center;
   margin: 5px;
-  //
+  
 `;
 
 const ColorWrapper = styled.div`
@@ -21,17 +21,17 @@ const ColorWrapper = styled.div`
     props.color ? props.color : "black"};;
   background-color: ${(props) =>
     props.color ? props.color : "white"};
-  //
+  
 `;
 
 const ColorCard = (props) => {
   return (
-    <>
+
     <CardWrapper>
       <ColorWrapper color={props.color}/>
       <TextBox fontweight="550" color={props.color}>{props.color}</TextBox>
     </CardWrapper>
-    </>
+
   );
 };
 
