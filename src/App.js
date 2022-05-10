@@ -1,12 +1,14 @@
-import Text from "./component/Text";
-import Button from "./component/Button";
-import TextCard from "./component/TextCard";
+import ColorCard from "./component/ColorCard";
+import TextBox from "./component/Text";
 function App() {
   return (
     <>
-      <TextCard text="이게 TextCard...?" button="click" />
-    </>
+    
+    <TextBox color="blue" weight="400" fontSize="16px">"hihihi"</TextBox></>
   );
 }
 
 export default App;
+NamedNode
+
+
