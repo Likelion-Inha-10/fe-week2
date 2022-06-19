@@ -14,7 +14,7 @@ ex) <br>
 다음과 같이 입력받을 때 font-weight, font-size 등이 수정되도록 바꾸어 주세요
 
 #해결 방안
- ```
+ ```JavaScript
  import ColorCard from "./component/ColorCard";
  function App() {
   return (
