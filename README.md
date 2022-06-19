@@ -57,8 +57,9 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - App.js에서 ColorCard 컴포넌트를 사용한다!<br>
 
 ##### 이제 실행 시켜보면...?!
- <br>
+ 
  ![색상 카드](https://user-images.githubusercontent.com/103057334/174476350-67a7d9a5-6cfd-4024-ba34-25102fd992af.png)
+ 
  <br>
   App.js에서 넘겨준 것대로 실행 완료!<br>
 <br>
