@@ -18,7 +18,8 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - 이때 줄 간격은 1.5로 지정하였고, 글자 색과 폰트 크기의 default 값은 각각 'black', '10px'로 지정하였다.
 - 이 스타일을 TextBox 컴포넌트에 적용하였고...
  
- ![app](https://user-images.githubusercontent.com/103057334/174474720-9370deb9-df1c-4a12-8735-ab3c17dfb310.png)<br>
+<br>
+![app](https://user-images.githubusercontent.com/103057334/174475075-fdf2beb1-994d-4a2a-8fe6-e1c2354f949f.png)
 - 이제TextBox 컴포넌트를 App.js 같은 다른 React 컴포넌트에서 사용할 수 있다!<br>
  
  그리고 이제 실행 시켜보면...?!
