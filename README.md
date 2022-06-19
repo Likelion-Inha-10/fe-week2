@@ -11,7 +11,8 @@ text-weight , text-size 를 props를 통해서 입력받기<br>
 
 
 ### 나의 구현 방식?
-![text_index](https://user-images.githubusercontent.com/103057334/174474199-b9b42a90-d831-4550-b5d7-6cd888b4ef56.png)<br>
+![text_index](https://user-images.githubusercontent.com/103057334/174476406-86a847b2-570d-45d5-b435-85086dba214c.png)
+<br>
 Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - 먼저 'div'에 원하는 스타일을 적용한 후 StyledText 변수에 저장하였다.
 - 이후 글자 색상, 폰트 두께, 폰트 크기를 props로 넘겨 받을 수 있게 하였다.
