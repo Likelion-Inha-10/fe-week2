@@ -31,7 +31,7 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 
 ## 문제 2번 <색상 카드 만들기>
 ### 문제?
- 색상코드를 입력하면 색상과 text가 나오는 카드 만들기!
+ 색상코드를 입력하면 색상과 text가 나오는 카드 만들기!<br>
  <img width="366" alt="image" src="https://user-images.githubusercontent.com/77886826/166141001-f3964a02-e290-4a8f-bc6e-ce94962f1b36.png">
 #### 현재 위치...목표는?
 <img width="314" alt="image" src="https://user-images.githubusercontent.com/77886826/166140624-39232d3e-becb-45c9-826c-e42b3698f61e.png">
