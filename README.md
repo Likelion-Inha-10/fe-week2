@@ -3,13 +3,14 @@ react 실습 첫번째!
 props를 통해 컴포넌트에게 값 전달하기!
 
 ## 문제 1번 <text를 props로 입력받기>
+### 문제?
 text-weight , text-size 를 props를 통해서 입력받기<br>
 
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/77886826/166138831-708166b3-5251-4956-ba19-f617085ce97e.png"><br>
 위와 같이 text의 color, fontWeight, fontSize 등을 props로 넘겨 받을 수 있도록 코드를 작성한다.
 
 
-#### 나의 구현 방식?
+### 나의 구현 방식?
 ![text_index](https://user-images.githubusercontent.com/103057334/174474199-b9b42a90-d831-4550-b5d7-6cd888b4ef56.png)<br>
 Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - 먼저 'div'에 원하는 스타일을 적용한 후 StyledText 변수에 저장하였다.
