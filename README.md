@@ -89,4 +89,4 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 
  그리고 이제 실행 시켜보면...?!
  <br>
-
+https://user-images.githubusercontent.com/103057334/174477488-2c6c3eea-4c10-484e-be4e-248ce6d2e7f2.mp4
