@@ -61,16 +61,32 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 <br>
 
 ## 문제 3번 <미디어 카드 만들기>
- 대망의 끝판왕 MediaCard 컴포넌트를 제작합니다!
- 무슨 방법을 사용하셔도 괜찮습니다. 최선을 다해서 사진과 유사한 미디어 카드를 만들어주세요! FE는 필수소양은 디자인을 완벽하게 같게 구사하는 능력입니다.<br>
+### 문제?
  <img width="668" alt="image" src="https://user-images.githubusercontent.com/77886826/166138976-2db612eb-7b7a-4a7c-882a-3199b9d55ab7.png">
+<br>위와 같이 MediaCard 컴포넌트를 제작하기!<br>
 
-요런 컴포넌트를 만들어 주세요! 
+#### 단...
+ - 사진의 1번은 url을 props 로 입력받는다.
+ - 미디어 카드의 제목인 2번 또한 props로 입력받는다.
+ - 미디어 카드의 내용인 3번도 props를 통해 입력받는다.
+ - 미디어 카드 버튼의 색인 4번 역시 props를 통해 입력받는다.
 
-### 제한조건 
- - styled-component 를 이용합니다.
- - 사진의 1번은 url을 props 로 입력받습니다.
- - 사진의 2번은 미디어카드의 제목입니다. props를 통해 입력받습니다.
- - 사진의 3번은 미디어 카드의 내용입니다. props를 통해 입력받습니다.
- - 사진의 4번은 미디어 카드의 버튼의 색 입니다. props를 통해 입력받습니다.
- - 서로 다른 props를 입력받은 미디어 카드를 최소 5개 이상 만듭니다.
+### 나의 구현 방식?
+![mediacard](https://user-images.githubusercontent.com/103057334/174476735-cd0fef1b-2db5-4ba0-95e7-ffafa7b5bcd0.png)
+- MediaCardWrapper는 미디어 카드의 배경이 되는 회색 부분
+- MediaContentCard는 미디어 카드의 전체적인 틀! <br>
+  둥근 테두리, box-shadow 등으로 디테일한 부분을 살려주었다!
+- MediaContent는 3번 부분인 카드 내용 부분...! 내용마다 길이의 차이가 있을 수 있으므로 전체적인 사이즈를 설정해주었다.
+- MediaImage는 props로 사진을 입력 받는 1번 부분. 둥근 테두리 처리를 해주었고 그 외 부분도 디테일하게 다듬었다.
+- 그리고 MediaCard에서 이 스타일들을 적용하여 미디어 카드 완성!<br>
+  제목은 검정색으로 두껍게, 폰트 크기도 크게 적용하였고, 내용 부분은 글자 색은 회색으로 조금은 얇게, 폰트 크기도 작게 적용하였다.
+- 그리고 추가적으로...<br>
+  action 버튼을 누르면 연결된 링크로 이동할 수 있는 기능도 추가!
+  
+  ![media](https://user-images.githubusercontent.com/103057334/174477198-ef303254-f364-4ef0-ba91-a6aaeb710f97.png)
+<br>
+- App.js에서 MediaCard 컴포넌트를 사용한다!<br>
+
+ 그리고 이제 실행 시켜보면...?!
+ <br>
+
