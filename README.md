@@ -1,18 +1,5 @@
 # 멋쟁이 사자처럼 10기 FE 2주차 과제 🦁
 
-반갑습니다 여러분!!☺️ 
-2주차부터 약 4주간 함께 진행할 10기 운영진 이성인입니다 ☺️ 
-react는 크게 어렵지 않습니다! 다같이 열심히 하시죠 ㅎㅎ
-
-# 실습 진행방법 
-기존의 실습들과 동일하게 진행됩니다
- - 이 레포를 fork 한다!
- - fork하여 이동한 자신의 레포에서 깃크라켄을 통해 클론을 받습니다.
- - 클론을 받은 파일을 vs 코드에서 엽니다!
- - vs 코드에서 터미널을 열어서 npm run start 를 입력하면 코드가 실행됩니다!
- 
-이번 실습은 3차에 걸쳐서 진행됩니다! 마지막까지 열심히 진행해보시죠 ㅎㅎ 
-
 # 실습 1번문제
  여러분은 프론트 엔드 작업을 진행하시면서 글자에 효과를 어떻게 주셨나요? 매번 id, class를 통해서 받지 않으셨나요?
  Text 컴포넌트를 수정하며 다양한 순간에 재사용성이 뛰어난 코드를 만들어봅시다!
@@ -25,6 +12,23 @@ ex) <br>
 현재 상태입니다.<br>
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/77886826/166138831-708166b3-5251-4956-ba19-f617085ce97e.png"><br>
 다음과 같이 입력받을 때 font-weight, font-size 등이 수정되도록 바꾸어 주세요
+
+***
+### 해결방법
+> 1. Text Component 코드작성
+<img src="https://user-images.githubusercontent.com/102943250/174477694-43f181f3-fd11-4c0b-8ba4-72aa0942482c.jpg" />
+> + props는 기본 설정되어 있는 값에 다른 값을 설정하고 싶은 요소들을 넣어주면 된다.   
+> + 이 코드에서는 text-weight, text-size, text-color가 props로 변경됨    
+
+
+> 2. App.js 코드실행
+<img src="https://user-images.githubusercontent.com/102943250/174477696-80f38834-ea9e-4a2d-8153-1e7d4961da00.jpg" />
+
+### 실행결과
+<img src= "https://user-images.githubusercontent.com/102943250/174477748-fc75d443-5a7b-4b63-9765-69083016c81a.jpg" />
+
+***
+
 
 
 # 실습 2번문제 
@@ -45,6 +49,21 @@ ex) <br>
  - ColorCard들 사이 간격은 10px 로 합니다.
  - ColorCard를 서로다른 props를 통해서 5개 이상 화면에 출력합니다.
 
+***
+### 해결방법
+> 1. ColorCard Component 코드작성
+<img src="https://user-images.githubusercontent.com/102943250/174477682-08ed2365-007f-4c84-acdd-2665608c1ae6.jpg" /> 
+
+
+> 2. App.js 코드실행
+<img src="https://user-images.githubusercontent.com/102943250/174477687-59b599b6-0598-4096-9c2f-da9a487ebd1c.jpg" />
+
+### 실행결과
+<img src= "https://user-images.githubusercontent.com/102943250/174477755-54b78bfe-7914-42f0-a054-a6819a5261fa.jpg" />
+
+***
+
+
 
 # 실습 3번문제
  대망의 끝판왕 MediaCard 컴포넌트를 제작합니다!
@@ -61,11 +80,25 @@ ex) <br>
  - 사진의 4번은 미디어 카드의 버튼의 색 입니다. props를 통해 입력받습니다.
  - 서로 다른 props를 입력받은 미디어 카드를 최소 5개 이상 만듭니다.
 
-# 제출시 필수 사항
-- 실습 모든 문제를 포함합니다.
-- 실습의 각 문제마다 스크린샷을 포함합니다.
-- pr 의 제목은 | [내이름] 제목 |으로 합니다.
-ex) [이성인] 리엑트는 너무 재밋어!
+***
+### 해결방법
+> 1. MediaCard Component 코드작성
+<img src="https://user-images.githubusercontent.com/102943250/174477699-40f4d05a-86cc-41d8-ba04-f4dd1c62daac.jpg" /> 
 
+
+> 2. App.js 코드실행
+<img src="https://user-images.githubusercontent.com/102943250/174477703-8d919002-bcc9-4697-9ebc-3f93ece66f0c.jpg" />
+
+### 실행결과
+<img src= "https://user-images.githubusercontent.com/102943250/174477745-9e7bcb77-6dc7-4b6e-bb66-a3f8311724bc.jpg" />
+
+> + 앞서 만들어 놓았던 Component들을 활용해 최종적으로 CardWrapper로 감싸주는 형태로 만들었다.  
+> + Image와 Text가 들어가는 틀을 CardWrapper 내부에서 위치조정 하기 위해 Margin이라는 Component를 새로 만들어 벽돌을 쌓듯이 쌓아 완성했다.  
+
+> 3. Margin Component 활용
+<img src="https://user-images.githubusercontent.com/102943250/174477714-6cf3ce05-ffc3-46cb-b858-ed0243c8e803.jpg" />
+_(출처: 든든한 조장 성인님)_
+
+***
 
 
