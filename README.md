@@ -32,7 +32,7 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 ## 문제 2번 <색상 카드 만들기>
 ### 문제?
  <img width="396" alt="image" src="https://user-images.githubusercontent.com/77886826/166140696-26ece472-220b-450f-90cf-37ac346ee8de.png">
- 색상코드를 입력하면 색상과 text가 나오는 카드 만들기!<br>
+ 이렇게 색상코드를 입력하면 색상과 text가 나오는 카드 만들기!<br>
 ![빈 카드](https://user-images.githubusercontent.com/103057334/174475448-4dde36ea-7ec7-4a7e-9f0f-17d03f74baf0.png)
 
 #### 이것이 현재 위치...목표는?
