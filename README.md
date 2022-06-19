@@ -38,7 +38,7 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
  
 ![빈 카드](https://user-images.githubusercontent.com/103057334/174475545-8b661f0f-7000-4bd2-8b5e-3f641269f373.png)
 
-#### 이것이 현재 위치...목표는?
+#### :point_up:이것이 현재 위치...목표는?
 <img width="314" alt="image" src="https://user-images.githubusercontent.com/77886826/166140624-39232d3e-becb-45c9-826c-e42b3698f61e.png">
 <img width="336" alt="image" src="https://user-images.githubusercontent.com/77886826/166140681-4c28bf65-0107-4aae-989e-be71e8e176b5.png">
 <img width="335" alt="image" src="https://user-images.githubusercontent.com/77886826/166140718-0a4599f1-6b4b-4048-8239-685a207fc5f1.png">
