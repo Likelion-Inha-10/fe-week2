@@ -13,7 +13,7 @@ ex) <br>
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/77886826/166138831-708166b3-5251-4956-ba19-f617085ce97e.png"><br>
 다음과 같이 입력받을 때 font-weight, font-size 등이 수정되도록 바꾸어 주세요
 
-#해결 방안
+### 해결 방안
  ```JavaScript
  import ColorCard from "./component/ColorCard";
  function App() {
