@@ -12,30 +12,6 @@ text-weight , text-size 를 props를 통해서 입력받기<br>
 
 ### 나의 구현 방식?
 
-import React from "react";
-import styled from "styled-components";
-
-const StyledText = styled.div`
-  color: ${(props) => (props.color ? props.color : "black")};
-  font-weight: ${(props) => props.fontWeight};
-  font-size: ${(props) => (props.fontSize ? props.fontSize : "10px")};
-  line-height: 1.5;
-`;
-
-const TextBox = (props) => {
-  return (
-    <StyledText
-      color={props.color}
-      fontWeight={props.fontWeight}
-      fontSize={props.fontSize}
-    >
-      {props.children}
-    </StyledText>
-  );
-};
-
-export default TextBox;
-
 ![text_index](https://user-images.githubusercontent.com/103057334/174476406-86a847b2-570d-45d5-b435-85086dba214c.png)<br>
 Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - 먼저 'div'에 원하는 스타일을 적용한 후 StyledText 변수에 저장하였다.
