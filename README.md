@@ -11,16 +11,14 @@ text-weight , text-size 를 props를 통해서 입력받기<br>
 
 
 ### 나의 구현 방식?
-![text_index](https://user-images.githubusercontent.com/103057334/174476406-86a847b2-570d-45d5-b435-85086dba214c.png)
-<br>
+![text_index](https://user-images.githubusercontent.com/103057334/174476406-86a847b2-570d-45d5-b435-85086dba214c.png)<br>
 Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - 먼저 'div'에 원하는 스타일을 적용한 후 StyledText 변수에 저장하였다.
 - 이후 글자 색상, 폰트 두께, 폰트 크기를 props로 넘겨 받을 수 있게 하였다.
 - 이때 줄 간격은 1.5로 지정하였고, 글자 색과 폰트 크기의 default 값은 각각 'black', '10px'로 지정하였다.
 - 이 스타일을 TextBox 컴포넌트에 적용하였고...
  
-![app](https://user-images.githubusercontent.com/103057334/174475116-d56a8acf-ab97-40a5-b3d2-ae7fcf6516fe.png)
-<br>
+![app](https://user-images.githubusercontent.com/103057334/174476455-fb3af228-3e73-4706-84f4-ba718efc10c1.png)<br>
 - 이제TextBox 컴포넌트를 App.js 같은 다른 React 컴포넌트에서 사용할 수 있다!<br>
  
  그리고 이제 실행 시켜보면...?!
