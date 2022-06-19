@@ -13,6 +13,20 @@ ex) <br>
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/77886826/166138831-708166b3-5251-4956-ba19-f617085ce97e.png"><br>
 다음과 같이 입력받을 때 font-weight, font-size 등이 수정되도록 바꾸어 주세요
 
+#해결 방안
+ ```
+ import ColorCard from "./component/ColorCard";
+ function App() {
+  return (
+   <>
+    <ColorCard color="black" />
+   </>
+   );
+  }
+  
+  export default App;
+  ```
+
 
 # 실습 2번문제 
  색상코드를 입력하면 색상과 text가 나오는 카드를 만들어봅시다! 제한된 조건 속에서 진행해 주시길 바랍니다!!
