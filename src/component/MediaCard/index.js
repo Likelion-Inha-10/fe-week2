@@ -1,4 +1,3 @@
-// 여기다가 만드시면 됩니다!!!
 import React from "react";
 import styled from "styled-components";
 import Button from "../Button";

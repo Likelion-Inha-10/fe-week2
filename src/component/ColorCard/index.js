@@ -9,17 +9,13 @@ const CardWrapper = styled.div`
   border-radius: 10px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: ${(props) => props.fontSize};
-  color: ${(props) => (props.color ? props.color : "black")};
-  font-weight: ${(props) => props.fontWeight};
 `;
 
 const ColorWrapper = styled.div`
   height: 350px;
   border: none;
   border-radius: 10px 10px 0 0;
-  background-color: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : "black"};
+  background-color: ${(props) => props.backgroundColor};
 `;
 
 const ColorCard = (props) => {
