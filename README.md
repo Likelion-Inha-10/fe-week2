@@ -49,10 +49,20 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 
 
 - 여기서 CardWrapper는 전체적인 카드의 틀이고, ColorWrapper는 only 색을 표현하는 카드의 윗부분입니다!
-- 그리고 카드 아랫부분에 색상 코드를 표시하는 부분은 1번에서 사용했던 TextBox 재사용!
+- 그리고 카드 아랫부분에 색상 코드를 표시하는 부분은 1번에서 사용했던 TextBox 재사용!<br>
   물론 우리는 색상만 넘겨줄 것이므로 'color'만 props로 넘겨주고 나머지는 그냥 원하는대로 설정...!
 - 그리고 ColorWrapper의 배경 색을 props로 받고...나머지 부분은 디테일하게 원하는 스타일대로 설정!
 
+![app 2](https://user-images.githubusercontent.com/103057334/174476276-1b3769b3-8cfa-4d2f-8ef7-9ad969497fcb.png)
+<br>
+- App.js에서 ColorCard 컴포넌트를 사용한다!<br>
+
+ 그리고 이제 실행 시켜보면...?!
+ <br>
+ ![색상 카드](https://user-images.githubusercontent.com/103057334/174476350-67a7d9a5-6cfd-4024-ba34-25102fd992af.png)
+ <br>
+  App.js에서 넘겨준 것대로 실행 완료!<br>
+<br>
 
 ## 문제 3번 <미디어 카드 만들기>
  대망의 끝판왕 MediaCard 컴포넌트를 제작합니다!
