@@ -9,11 +9,11 @@ function App() {
       <ColorCard  backgroundColor="Black"></ColorCard>
       <ColorCard  backgroundColor="#1E82CD"></ColorCard>
       <ColorCard  backgroundColor="#FFAAFF"></ColorCard>
-      <MediaCard  backgroundImage="main_picture.jpg"></MediaCard>
-      <MediaCard  backgroundImage="picture1.jpg"></MediaCard>
-      <MediaCard  backgroundImage="picture2.jpg"></MediaCard>
-      <MediaCard  backgroundImage="picture3.jpg"></MediaCard>
-      <MediaCard  backgroundImage="picture4.jpg"></MediaCard>
+      <MediaCard  backgroundImage="main_picture.jpg" subtext="In InfinityWar">Ironmanpic</MediaCard>
+      <MediaCard  backgroundImage="picture1.jpg" subtext ="Take me to the church">Cathedral</MediaCard>
+      <MediaCard  backgroundImage="picture2.jpg" subtext="In CivilWar">Ironmanpic2</MediaCard>
+      <MediaCard  backgroundImage="picture3.jpg" subtext="In Ironman3">Ironmanpic3</MediaCard>
+      <MediaCard  backgroundImage="picture4.jpg" subtext="In The Greatest Showman">The Greatest Showman</MediaCard>
     </>
     );
   };

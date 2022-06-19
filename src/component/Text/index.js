@@ -6,6 +6,9 @@ const StyledText = styled.div`
   color: ${(props) => (props.color ? props.color : "black")};
   font-weight: ${(props) => (props.fontWeight ? props.fontWeight : "500")};
   text-align: ${(props) => (props.textAlign ? props.textAlign :"left")};
+  text-overflow: ellipsis;
+  overflow:hidden;
+  width:300px;
 `;
 
 const TextBox = (props) => {
