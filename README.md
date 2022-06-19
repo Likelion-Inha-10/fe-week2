@@ -21,7 +21,7 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 ![app](https://user-images.githubusercontent.com/103057334/174476455-fb3af228-3e73-4706-84f4-ba718efc10c1.png)<br>
 - 이제TextBox 컴포넌트를 App.js 같은 다른 React 컴포넌트에서 사용할 수 있다!<br>
  
- 그리고 이제 실행 시켜보면...?!
+ ##### 이제 실행 시켜보면...?!
  <br>
  ![1번 결과](https://user-images.githubusercontent.com/103057334/174474799-1daaf755-6a96-4d35-908c-084d2738ab75.png)<br>
   App.js에서 넘겨준 것대로 실행 완료!<br>
@@ -53,7 +53,7 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 ![app 2](https://user-images.githubusercontent.com/103057334/174476524-35c12d75-d53e-4b66-86b3-c8b305ade500.png)<br>
 - App.js에서 ColorCard 컴포넌트를 사용한다!<br>
 
- 그리고 이제 실행 시켜보면...?!
+##### 이제 실행 시켜보면...?!
  <br>
  ![색상 카드](https://user-images.githubusercontent.com/103057334/174476350-67a7d9a5-6cfd-4024-ba34-25102fd992af.png)
  <br>
