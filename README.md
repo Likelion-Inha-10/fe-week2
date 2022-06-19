@@ -30,22 +30,19 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 
 
 ## 문제 2번 <색상 카드 만들기>
- 색상코드를 입력하면 색상과 text가 나오는 카드를 만들어봅시다! 제한된 조건 속에서 진행해 주시길 바랍니다!!
+#### 문제?
+ 색상코드를 입력하면 색상과 text가 나오는 카드 만들기!
  <img width="366" alt="image" src="https://user-images.githubusercontent.com/77886826/166141001-f3964a02-e290-4a8f-bc6e-ce94962f1b36.png">
-<br>현재 사진입니다! 아래와 같게 만들어주세요!
- ### 목표)
+##### 현재 위치...목표는?
 <img width="314" alt="image" src="https://user-images.githubusercontent.com/77886826/166140624-39232d3e-becb-45c9-826c-e42b3698f61e.png">
 <img width="336" alt="image" src="https://user-images.githubusercontent.com/77886826/166140681-4c28bf65-0107-4aae-989e-be71e8e176b5.png">
 <img width="335" alt="image" src="https://user-images.githubusercontent.com/77886826/166140718-0a4599f1-6b4b-4048-8239-685a207fc5f1.png">
 <img width="396" alt="image" src="https://user-images.githubusercontent.com/77886826/166140696-26ece472-220b-450f-90cf-37ac346ee8de.png">
 <br>
-다음과 같이 입력 받습니다.
+이렇게 만들기!<br>
+단! ColorCard들 사이 간격은 10px 로...!
 
-### 제한조건 
 
- - 빈칸을 채워 다음 사진과 같게 구현합니다!
- - ColorCard들 사이 간격은 10px 로 합니다.
- - ColorCard를 서로다른 props를 통해서 5개 이상 화면에 출력합니다.
 
 
 ## 문제 3번 <미디어 카드 만들기>
