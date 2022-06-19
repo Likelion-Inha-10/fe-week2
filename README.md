@@ -22,8 +22,8 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - 이제TextBox 컴포넌트를 App.js 같은 다른 React 컴포넌트에서 사용할 수 있다!
  
  그리고 이제 실행 시켜보면...?!
+ <br>
  ![1번 결과](https://user-images.githubusercontent.com/103057334/174474799-1daaf755-6a96-4d35-908c-084d2738ab75.png)<br>
-
   App.js에서 넘겨준 것대로 실행 완료!
 
 
