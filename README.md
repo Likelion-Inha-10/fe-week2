@@ -76,7 +76,9 @@ function App() {
 
 ## < 결과 >
 
-<br></br>
+<br>
+![1번](https://user-images.githubusercontent.com/100702397/174483537-bbe60f53-2978-4776-a606-a79f49cda1b8.JPG)
+
 
 # 실습 2번문제
 
@@ -157,8 +159,10 @@ function App() {
 ```
 
 ### < 결과 >
+<br>
+![2번_1](https://user-images.githubusercontent.com/100702397/174483563-02cdb536-5569-4ec6-b22b-f2b0e5cabfb4.JPG)
+![2번_2](https://user-images.githubusercontent.com/100702397/174483567-163d5b06-0197-4f47-8572-8f1289546f83.JPG)
 
-<br></br>
 
 # 실습 3번문제
 
@@ -278,8 +282,10 @@ export default Button;
 ```
 
 ## < 실습 3번 결과 >
+<br>
+![3번_1](https://user-images.githubusercontent.com/100702397/174483574-8aa03d37-0b11-4aaf-a92d-7f8c9e6fc40c.JPG)
+![3번_2](https://user-images.githubusercontent.com/100702397/174483578-6aa7891d-0bfc-4ace-aa74-497085c6189c.JPG)
 
-<br></br>
 
 # 제출시 필수 사항
 
