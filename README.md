@@ -94,10 +94,12 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
   
   ![media](https://user-images.githubusercontent.com/103057334/174477198-ef303254-f364-4ef0-ba91-a6aaeb710f97.png)
 <br>
+
 - App.js에서 MediaCard 컴포넌트를 사용한다!<br>
 
- 그리고 이제 실행 시켜보면...?!
- <br>
+##### 이제 실행 시켜보면...?!
+
  
 https://user-images.githubusercontent.com/103057334/174477488-2c6c3eea-4c10-484e-be4e-248ce6d2e7f2.mp4
 
+<br>미디어 카드 만들기 성공!
