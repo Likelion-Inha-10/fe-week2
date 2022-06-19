@@ -15,11 +15,11 @@ ex) <br>
 
 ### 해결 방안
  ```JavaScript
- import ColorCard from "./component/ColorCard";
+ import Text from "./component/Text"; //component 파일에 있는 Text 파일을 불러올 것이다
  function App() {
   return (
    <>
-    <ColorCard color="black" />
+    <ColorCard color="black" /> //component 파일에 있는 Text 파일 속 색깔의 값을 지정해줄 것인데 디폴트값은 검정색으로 할 것이다. 색깔은 "" 안에 원하는 색깔을 지정할 수 있다.
    </>
    );
   }
@@ -31,16 +31,11 @@ ex) <br>
   import React from "react";
 import styled from "styled-components";
 
-const StyledText = styled.div`
-  font-size: 10px;
-  color: ${(props) => (props.color ? props.color : "black")};
+const StyledText = styled.div` //텍스트의 색깔의 속성을 변경할 수 있는 함수를 만든다.
+  font-size: 10px; // 텍스트의 크기는 10사이즈이다.
+  color: ${(props) => (props.color ? props.color : "black")}; //props를 통해 색을 지정받는다
 `;
-
-const TextBox = (props) => {
-  return <StyledText color={props.color}>{props.children}</StyledText>;
-};
-
-export default TextBox;
+export default StyledBox;
 ```
 
 
@@ -62,6 +57,37 @@ export default TextBox;
  - ColorCard들 사이 간격은 10px 로 합니다.
  - ColorCard를 서로다른 props를 통해서 5개 이상 화면에 출력합니다.
 
+### 해결방안
+ ```JavaScript
+ import React from "react";
+import styled from "styled-components";
+
+const CardWrapper = styled.div` //카드의 전체적인 사이즈를 설정한다
+  width: 300px; //가로 길이 설정
+  height: 430px; //세로 길이 설정
+  border: 1px black solid; //테두리는 1픽셀 검정으로 설정한다
+  //
+`;
+
+const ColorWrapper = styled.div` //전체적인 카드 사이즈 안에 있는 색깔 상자 설정값을 정한다
+  height: 350px;
+  border: 1px solid black;
+  //
+`;
+
+const ColorCard = (props) => { //상자 안을 채워줄 색깔을 props를 통해 받는다.
+  return (
+    <CardWrapper>
+      <ColorWrapper color={props.color} />
+    </CardWrapper>
+  );
+};
+const TextBox = (props) => { //밑에 상자 안에 있는 글씨의 색을 바꾼다.
+  return <StyledText color={props.color}>{props.children}</StyledText>;
+};
+
+export default ColorCard;
+```
 
 # 실습 3번문제
  대망의 끝판왕 MediaCard 컴포넌트를 제작합니다!
