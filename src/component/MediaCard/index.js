@@ -10,7 +10,6 @@ const CardWrapper1 = styled.div`
   border: 1px black solid;
   margin: 10px;
   border-radius: 15px;
-  }
   //
 `;
 const TextWrapper = styled.div`
@@ -44,8 +43,8 @@ const MediaCard = (props) => {
     <CardWrapper1>
       <PictureWrapper backgroundImage={props.backgroundImage}></PictureWrapper>
       <TextWrapper>
-        <TextBox fontSize="36" fontWeight="bold" >Heading</TextBox>
-        <TextBox color="grey" fontSize="20" >This is a short description about the card.</TextBox>
+        <TextBox fontSize="36" fontWeight="bold" >{props.children}</TextBox>
+        <TextBox color="grey" fontSize="20" >{props.subtext}</TextBox>
       </TextWrapper>
       <BottonWrapper>
         <Button color="white" backgroundColor="blue" textAlign="center">Action</Button>

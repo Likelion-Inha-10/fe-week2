@@ -26,6 +26,15 @@ ex) <br>
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/77886826/166138831-708166b3-5251-4956-ba19-f617085ce97e.png"><br>
 다음과 같이 입력받을 때 font-weight, font-size 등이 수정되도록 바꾸어 주세요
 
+<img width="700" alt="image" src="public\image\과제1.jpg"><br>
+예를 들어 폰트 사이즈를 props를 통해 받으려면<br>
+font-size: ${(props) => (props.fontSize ? props.fontSize : "24")}px;<br>
+이렇게 적는다.<br>
+마지막 : 오른쪽에 있는 값은 fontSize로 값을 받지 않았을 때 기본적으로 입력받는 값이다.<br>
+props의 이름이라고 해야하나? 저거 받는 거 쨋든 저거 이름은 중간은 대문자로 해놓아야한다.<br>
+css를 쓰기 위해서는 const 이름 = styled.div` 를 작성해야 하고 그 전에 import styled from ~ 를 작성해야한다.<br>
+component 이름은 대문자로 시작해야한다.<br>
+component 를 밖으로 꺼내려면 export default 이름 을 맨 마지막에 써야하며 쓰려는 곳에서 import 해야한다.<br>
 
 # 실습 2번문제 
  색상코드를 입력하면 색상과 text가 나오는 카드를 만들어봅시다! 제한된 조건 속에서 진행해 주시길 바랍니다!!
@@ -45,6 +54,13 @@ ex) <br>
  - ColorCard들 사이 간격은 10px 로 합니다.
  - ColorCard를 서로다른 props를 통해서 5개 이상 화면에 출력합니다.
 
+<img width="700" alt="image" src="public\image\colorcard.jpg" >
+<img width="700" alt="image" src="public\image\apps.jpg">
+색깔만 props로 받아서 쓸 수 있도록 설계했다.<br>
+background-color: ${(props) => (props.backgroundColor ? props.backgroundColor : "black")};<br>
+
+
+
 
 # 실습 3번문제
  대망의 끝판왕 MediaCard 컴포넌트를 제작합니다!
@@ -60,6 +76,14 @@ ex) <br>
  - 사진의 3번은 미디어 카드의 내용입니다. props를 통해 입력받습니다.
  - 사진의 4번은 미디어 카드의 버튼의 색 입니다. props를 통해 입력받습니다.
  - 서로 다른 props를 입력받은 미디어 카드를 최소 5개 이상 만듭니다.
+
+<img width="700" alt="image" src="public\image\과제2Mediacard.jpg">
+<img width="700" alt="image" src="public\image\apps.jpg">
+props를 이용해서 이미지의 경로를 받도록 했다.<br>
+background-image: url('image/${(props) => (props.backgroundImage ? props.backgroundImage : "green")}');<br>
+url(경로)가 이미지 경로를 이용해서 background-image를 받는 방법이므로 url()까지 써놓고 경로만 받을 수 있도록 설계하였다.<br>
+
+
 
 # 제출시 필수 사항
 - 실습 모든 문제를 포함합니다.
