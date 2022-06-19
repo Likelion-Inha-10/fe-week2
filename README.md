@@ -44,16 +44,13 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 단! ColorCard들 사이 간격은 10px 로...!
 
 ### 나의 구현 방식?
-![color](https://user-images.githubusercontent.com/103057334/174476164-89dd5146-460b-428a-b4d5-d2feb4952c42.png)
-
-
+![color](https://user-images.githubusercontent.com/103057334/174476532-e1916404-4265-476b-a5bc-d0ef2fc31824.png)
 - 여기서 CardWrapper는 전체적인 카드의 틀이고, ColorWrapper는 only 색을 표현하는 카드의 윗부분입니다!
 - 그리고 카드 아랫부분에 색상 코드를 표시하는 부분은 1번에서 사용했던 TextBox 재사용!<br>
   물론 우리는 색상만 넘겨줄 것이므로 'color'만 props로 넘겨주고 나머지는 그냥 원하는대로 설정...!
 - 그리고 ColorWrapper의 배경 색을 props로 받고...나머지 부분은 디테일하게 원하는 스타일대로 설정!
 
-![app 2](https://user-images.githubusercontent.com/103057334/174476276-1b3769b3-8cfa-4d2f-8ef7-9ad969497fcb.png)
-<br>
+![app 2](https://user-images.githubusercontent.com/103057334/174476524-35c12d75-d53e-4b66-86b3-c8b305ade500.png)<br>
 - App.js에서 ColorCard 컴포넌트를 사용한다!<br>
 
  그리고 이제 실행 시켜보면...?!
@@ -77,7 +74,3 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
  - 사진의 3번은 미디어 카드의 내용입니다. props를 통해 입력받습니다.
  - 사진의 4번은 미디어 카드의 버튼의 색 입니다. props를 통해 입력받습니다.
  - 서로 다른 props를 입력받은 미디어 카드를 최소 5개 이상 만듭니다.
-
-
-
-
