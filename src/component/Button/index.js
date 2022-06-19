@@ -8,7 +8,6 @@ const StyledButton = styled.button`
   border: 0px;
   border-radius: 20px;
   font-size: 1rem;
-  margin-auto;
   margin-top: 30px;
   background: ${(props) => (props.BColor ? props.BColor : "white")};
   color: ${(props) => (props.color ? props.color : "white")};
