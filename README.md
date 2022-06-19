@@ -79,6 +79,7 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 - MediaContent는 3번 부분인 카드 내용 부분...! 내용마다 길이의 차이가 있을 수 있으므로 전체적인 사이즈를 설정해주었다.
 - MediaImage는 props로 사진을 입력 받는 1번 부분. 둥근 테두리 처리를 해주었고 그 외 부분도 디테일하게 다듬었다.
 <br>
+
 ![button](https://user-images.githubusercontent.com/103057334/174477743-5604aed9-b91c-43e7-82e3-aed387c1146e.png)
 
 <br>
