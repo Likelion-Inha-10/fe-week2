@@ -36,8 +36,6 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
  
 ![빈 카드](https://user-images.githubusercontent.com/103057334/174475545-8b661f0f-7000-4bd2-8b5e-3f641269f373.png)
 
-
-
 #### 이것이 현재 위치...목표는?
 <img width="314" alt="image" src="https://user-images.githubusercontent.com/77886826/166140624-39232d3e-becb-45c9-826c-e42b3698f61e.png">
 <img width="336" alt="image" src="https://user-images.githubusercontent.com/77886826/166140681-4c28bf65-0107-4aae-989e-be71e8e176b5.png">
@@ -46,7 +44,14 @@ Styled Components를 사용해서 React 컴포넌트를 스타일링하였다.
 이렇게 만들기!<br>
 단! ColorCard들 사이 간격은 10px 로...!
 
+### 나의 구현 방식?
+![color](https://user-images.githubusercontent.com/103057334/174476164-89dd5146-460b-428a-b4d5-d2feb4952c42.png)
 
+
+- 여기서 CardWrapper는 전체적인 카드의 틀이고, ColorWrapper는 only 색을 표현하는 카드의 윗부분입니다!
+- 그리고 카드 아랫부분에 색상 코드를 표시하는 부분은 1번에서 사용했던 TextBox 재사용!
+  물론 우리는 색상만 넘겨줄 것이므로 'color'만 props로 넘겨주고 나머지는 그냥 원하는대로 설정...!
+- 그리고 ColorWrapper의 배경 색을 props로 받고...나머지 부분은 디테일하게 원하는 스타일대로 설정!
 
 
 ## 문제 3번 <미디어 카드 만들기>
