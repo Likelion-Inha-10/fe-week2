@@ -103,5 +103,7 @@ export default ColorCard;
  - 사진의 3번은 미디어 카드의 내용입니다. props를 통해 입력받습니다.
  - 사진의 4번은 미디어 카드의 버튼의 색 입니다. props를 통해 입력받습니다.
  - 서로 다른 props를 입력받은 미디어 카드를 최소 5개 이상 만듭니다.
+![이미지 2022  5  7  오전 11 42](https://user-images.githubusercontent.com/103018984/174473848-1f857a1a-a37b-4c5c-8de1-4c97cc9e161d.jpg)
+
 
 
