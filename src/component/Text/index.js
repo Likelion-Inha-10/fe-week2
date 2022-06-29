@@ -2,13 +2,23 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledText = styled.div`
-  text-overflow: ellipsis;
-  overflow: hidden;
-  color: ${(props) => (props.color ? props.color : "black")};
+  font-size: ${(props) => props.fSize};
+  color: ${(props) => (props.fcolor ? props.fcolor : "black")};
+  font-weight: ${(props) => props.fWeight};
+  padding-left: 10px;
+  line-height: 200%;
 `;
 
 const TextBox = (props) => {
-  return <StyledText color={props.color}>{props.children}</StyledText>;
+  return (
+    <StyledText
+      fcolor={props.color}
+      fSize={props.fontSize}
+      fWeight={props.fontWeight}
+    >
+      {props.children}
+    </StyledText>
+  );
 };
 
 export default TextBox;
