@@ -1,64 +1,210 @@
-# 멋쟁이 사자처럼 10기 FE 2주차 과제 🦁
+<<<<<<< HEAD
+=======
+# 리뷰
 
-반갑습니다 여러분!!☺️ 
-2주차부터 약 4주간 함께 진행할 10기 운영진 이성인입니다 ☺️ 
-react는 크게 어렵지 않습니다! 다같이 열심히 하시죠 ㅎㅎ
-
-# 실습 진행방법 
-기존의 실습들과 동일하게 진행됩니다
- - 이 레포를 fork 한다!
- - fork하여 이동한 자신의 레포에서 깃크라켄을 통해 클론을 받습니다.
- - 클론을 받은 파일을 vs 코드에서 엽니다!
- - vs 코드에서 터미널을 열어서 npm run start 를 입력하면 코드가 실행됩니다!
- 
-이번 실습은 3차에 걸쳐서 진행됩니다! 마지막까지 열심히 진행해보시죠 ㅎㅎ 
-
-# 실습 1번문제
- 여러분은 프론트 엔드 작업을 진행하시면서 글자에 효과를 어떻게 주셨나요? 매번 id, class를 통해서 받지 않으셨나요?
- Text 컴포넌트를 수정합니다. Text 컴포넌트는 bor
-
-### 제한조건 
- - text-weight , text-size 를 props를 통해서 입력받아서 수정합니다. 
- 
-ex) <br>
-<img width="538" alt="image" src="https://user-images.githubusercontent.com/77886826/166138795-c60b1f82-9cd7-47fb-835a-04c6e0a4b02b.png"><br>
-현재 상태입니다.<br>
-<img width="663" alt="image" src="https://user-images.githubusercontent.com/77886826/166138831-708166b3-5251-4956-ba19-f617085ce97e.png"><br>
-다음과 같이 입력받을 때 font-weight, font-size 등이 수정되도록 바꾸어 주세요
+# 1번 문제
 
 
-# 실습 2번문제 
- 완벽한 TextCard를 만들었지만 여백이 부족해 더 적지 못했습니다! 여러분은 여백이 많으시니 완벽한 TextCard를 만들어주세요!
- <img width="861" alt="image" src="https://user-images.githubusercontent.com/77886826/166139365-fb1bb6b2-4088-4a66-9c05-6f1a4f18a535.png">
+- 원하는 태그를 직접 만들기
+    1. src/component/원하는태그이름폴더 생성 (이름은 대문자로 시작해야한다~)
+    2. index.js파일 만들기 
+    3. 원하는대로 만든다. css처럼 작성하면 된다. (객체를 만든다고 생각하면 되지않을까)
+    
+    ```jsx
+    import React from "react"; 
+    import styled from "styled-components";
+    
+    const StyledButton = styled.button` //이미 만들어진 button태그를 상속받아 내가 새로운 태그를 만든다 
+    	height: 50px;  //내가 만드는 태그를 꾸미는 것
+    	color: ${(props) => (props.color? props.color : "black")};
+    	//etc...
+    `;
+    
+    const Button = (props) => {
+    	return(
+    		<StyledButton color={props.color}>
+    			{props.children}
+    		<StyledButton>
+    	);
+    };
+    
+    export default Button; //대문자로 시작해야한다~
+    ```
+    
+- 내가 만든 태그 직접 사용하는 법
+    1. import한다. (이때 경로를 잘못쓰는 것에 주의할 것)
+    2. 기존의 태그처럼 사용하면 된다. 
+    3. 필요시 속성도 작성한다. 입력받은 값은 props.속성 → 꾸미는 곳으로 이동
+    
+    ```jsx
+    import TextBox from "./component/Text";
+    
+    function App() {
+    	return(
+    		<> //return을 한꺼번에 묶어주는 태그가 없다면 <></>를 사용해 묶어줘야한다.
+    			<TextBox color="blue" fontWeight ="400" fontSize="16">hello<TextBox>
+    			<TextBox color="blue" fontWeight ="400" fontSize="16">hello<TextBox>
+    		</>
+    	);
+    };
+    
+    export default App;
+    ```
+    
+    - blue = argument, props.color = parameter 라고 생각하자. 인자를 전달해주고 const StyledButton에 들어가 값들이 사용되는 것이다.
 
-이쁘게 만들어 주시리라 믿습니다...!! 
+<img src="img/1.png" />
 
-### 제한조건 
- - TextCard 내부정렬
- - TextCard 내부의 Text , Button등의 Props들 또한 TextCard가 입력받아서 관리합니다.
- - 이쁘게 만들어보세요! 당신의 감각을 믿습니다.
-
-# 실습 3번문제
- 대망의 끝판왕 MediaCard 컴포넌트를 제작합니다!
- 무슨 방법을 사용하셔도 괜찮습니다. 최선을 다해서 사진과 유사한 미디어 카드를 만들어주세요! FE는 필수소양은 디자인을 완벽하게 같게 구사하는 능력입니다.<br>
- <img width="668" alt="image" src="https://user-images.githubusercontent.com/77886826/166138976-2db612eb-7b7a-4a7c-882a-3199b9d55ab7.png">
-
-요런 컴포넌트를 만들어 주세요! 
-
-### 제한조건 
- - styled-component 를 이용합니다.
- - 함수형 컴포넌트를 이용합니다.
- - 사진의 1번은 url을 props 로 입력받습니다. 하드코딩하지 않습니다.
- - 사진의 2번은 미디어카드의 제목입니다. props를 통해 입력받습니다.
- - 사진의 3번은 미디어 카드의 내용입니다. props를 통해 입력받습니다.
- - 사진의 4번은 미디어 카드의 버튼의 색 입니다. props를 통해 입력받습니다.
- - 서로 다른 props를 입력받은 미디어 카드를 최소 5개 이상 만듭니다.
-
-# 제출시 필수 사항
-- 실습 모든 문제를 포함합니다.
-- 실습의 각 문제마다 스크린샷을 포함합니다.
-- pr 의 제목은 | [내이름] 제목 |으로 합니다.
-ex) [이성인] 리엑트는 너무 재밋어!
+# 2번 문제
 
 
+- 내가 만든 태그를 내가 만든 또다른 태그에서.. 사용하기
+    1. import한다.
+    2. return 안에 작성하면 너무나 간단하게 사용할 수 있다.
+    
+    ```jsx
+    import React from "react";
+    import styled from "styled-components";
+    import TextBox from "../Text"; //만들어놨던 태그 설치
+    
+    const CardWrapper = styled.div`
+      border-radius: 3%;
+      width: 300px;
+      height: 430px;
+      border: 1px black solid;
+      text-align: center;
+      margin: 5px;
+      
+    `;
+    
+    const ColorWrapper = styled.div`
+      border-top-left-radius: 3%;
+      border-top-right-radius: 3%;
+      height: 350px;
+      border: 1px solid ${(props) =>
+        props.color ? props.color : "black"};;
+      background-color: ${(props) =>
+        props.color ? props.color : "white"};
+      
+    `;
+    
+    const ColorCard = (props) => {
+      return (
+        <CardWrapper>
+          <ColorWrapper color={props.color}/>
+          <TextBox fontweight="550" color={props.color}>{props.color}</TextBox>
+        </CardWrapper>
+      );
+    };
+    
+    export default ColorCard; 
+    ```
+    
+- 태그를 사용하는 App.js에서 props를 넘겨주자
+    
+    ```jsx
+    //...
+    
+    function App() {
+    	return(
+    		<>
+    			<ColorCard color="#eaa18a"></ColorCard>
+    			<ColorCard color="#f55354"></ColorCard>
+    		</>
+    	);
+    };
+    
+    //...
+    ```
+    
+    #eaa18a, #f55354가 넘겨준 props다
+    <img src="img/2.png" />
 
+# 3번 문제
+
+---
+
+- 계층 구조를 잘 만들자
+    1. 문제를 보고 무엇이 무엇을 감싸고있는지를 잘 확인하여 만드는 것이 중요하다.
+    2. 해당되는 요소들은 Wrapper로 이름붙여서 작성해준다.
+    
+    ```jsx
+    import React from "react";
+    import styled from "styled-components";
+    import TextBox from "../Text";
+    
+    const PhotoWrapper = styled.div`
+      background-image: url(${(props) => (props.src ? props.src : "none")});
+      background-size: cover;
+      border-radius: 20px;
+      height: 200px;
+      //
+    `;
+    const TextWrapper = styled.div`
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+      padding: 10px;
+      height: 95px;
+      //
+    `;
+    const ButtonWrapper = styled.div`
+    border-radius: 25px;
+    padding: 17px 17px;
+    text-align: center;
+    background: linear-gradient( to left, rgba(255, 255, 255, 0.1), ${(props) => (props.btncolor ? props.btncolor : "white")});
+    
+      //
+    `;
+    const Main = styled.div`
+    padding: 10px;
+      background-color: white;
+      width: 350px;
+      height: 400px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+      //
+    `;
+    
+    const MediaCard = (props) => {
+      return (
+        <>
+        <Main>
+          <PhotoWrapper src={props.src}>
+          </PhotoWrapper>
+          <TextWrapper>
+            <TextBox fontsize="30px" fontweight="800">
+              {props.title}
+            </TextBox>
+            <TextBox fontsize="20px" fontweight="200" color="grey">
+              {props.internal}
+            </TextBox>
+            </TextWrapper>
+          <ButtonWrapper btncolor={props.btncolor}>
+            <TextBox fontsize="20px" color="white">Action</TextBox>
+          </ButtonWrapper>
+        </Main>
+        </>
+      );
+    };
+    
+    export default MediaCard;
+    ```
+    
+
+**구조**
+
+- main
+    - PhotoWrapper
+    - TextWrapper
+        - TextBoxs
+    - ButtonWrapper
+        - TextBoxs
+
+      <img src="img/3.png" />
+
+
+
+
+
+>>>>>>> master
